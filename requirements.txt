@@ -1,0 +1,41 @@
+# Django Streaming Platform - Python Dependencies
+
+# Core Django
+Django==4.2.8
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# Database
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# Authentication & Security
+djangorestframework-simplejwt==5.3.1
+django-filter==23.5
+python-decouple==3.8
+
+# Utilities
+requests==2.31.0
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Monitoring & Logging
+django-prometheus==2.3.1
+sentry-sdk==1.38.0
+
+# Task Queue (optional)
+celery==5.3.4
+redis==5.0.1
+
+# Production Server
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Development
+django-debug-toolbar==4.2.0
+ipython==8.18.1
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+factory-boy==3.3.0

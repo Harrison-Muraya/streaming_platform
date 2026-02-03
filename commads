@@ -1,2 +1,5 @@
  @REM to activate virtualenvironment
  .\venv\Scripts\activate   
+ 
+ sudo apt install python3.12-venv -y
+ source venv/bin/activate
