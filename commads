@@ -1,0 +1,2 @@
+ @REM to activate virtualenvironment
+ .\venv\Scripts\activate   
